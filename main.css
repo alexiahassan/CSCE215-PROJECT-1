@@ -265,7 +265,6 @@ body {
     background-image: url(lavender_banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .experience-header {
@@ -439,7 +438,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw; /* viewport width */
-    height: 200%; /* viewport height */
+    height: 200%; 
     overflow-x: hidden;
     overflow-y: hidden;
     
@@ -452,8 +451,7 @@ body {
 
     display:flex;
     flex-direction:row;
-
-    /*font*/
+    overflow-y: hidden;
 }
 
 .portfolio-description-writing {
@@ -491,11 +489,6 @@ body {
     height: 100%;
     width: 40%;
     flex-direction: column;
-    overflow-y: hidden;
-
-
-
-
 }
 
 .portfolio-title {
@@ -506,7 +499,6 @@ body {
     margin-top: 50%;
     text-align: center;
     vertical-align: center;
-    
 }
 
 .portfolio-pictures {
@@ -520,5 +512,61 @@ body {
     background-image: url(portfolio-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/*service page*/
+
+.service-body {
+    display:flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(lavender_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction:row;
+}
+
+.service-header {
+    width: 40%;
+    height: 60%;
+    margin-left: 8%;
+    margin-top: 15%;
+
+    background: 
+    linear-gradient(
+    rgba(89, 81, 113, 1),
+    rgba(89, 81, 113, 1),
+    rgba(89, 81, 113, 0.8),
+    rgba(89, 81, 113, 0)
+    );
+}
+
+.service-photo {
+    content: url("community-service.jpg");
+    border-radius: 300px;
+    width: 40%;
+    height: 55%;
+    margin-top: 15%;
+    margin-left: 3%;
+}
+
+.service-blurb-h1 {
+    color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 15%;
 
 }
+
+.service-blurb {
+    color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5%;
+    max-width: 70%;
+    margin-left: 15%;
+}
+
